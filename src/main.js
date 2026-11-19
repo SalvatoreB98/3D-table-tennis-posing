@@ -652,12 +652,33 @@ function wireUI() {
     updateMotionPath();
   });
 
+  // Zen / Solo Modello Mode (hide all UI + 3D gizmos)
+  let zenMode = false;
+  const tcHelper = transformControls.getHelper ? transformControls.getHelper() : transformControls;
+  const toggleZenMode = () => {
+    zenMode = !zenMode;
+    document.body.classList.toggle('zen-mode', zenMode);
+    document.getElementById('btn-exit-zen').classList.toggle('hidden', !zenMode);
+    gizmos.group.visible = !zenMode;
+    tcHelper.visible = !zenMode;
+    if (zenMode) {
+      gizmos.motionPathLine.visible = false;
+    } else {
+      updateMotionPath();
+    }
+    handleResize();
+  };
+  document.getElementById('btn-zen-mode').addEventListener('click', toggleZenMode);
+  document.getElementById('btn-exit-zen').addEventListener('click', toggleZenMode);
+
   // Keyboard shortcuts
   window.addEventListener('keydown', (e) => {
     if (e.target.tagName === 'INPUT' || e.target.tagName === 'SELECT') return;
     if (e.code === 'Space') {
       e.preventDefault();
       togglePlay();
+    } else if (e.key === 'h' || e.key === 'H') {
+      toggleZenMode();
     } else if (e.key === 'g' || e.key === 'G') {
       setMode('translate');
     } else if (e.key === 'r' || e.key === 'R') {

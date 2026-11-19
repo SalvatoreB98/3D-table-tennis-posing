@@ -1,0 +1,4486 @@
+{
+  "fps": 30,
+  "totalFrames": 33,
+  "tracks": {
+    "hips": {
+      "px": [
+        {
+          "frame": 0,
+          "value": -0.001872,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -6,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.0499999999999998,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 3,
+          "value": 0.04,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 8,
+          "value": -0.04,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.75,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4.55,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 21,
+          "value": -0.001872,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -5.8500000000000005,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 0.44999999999999996,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 24,
+          "value": -0.001872,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.4,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 28,
+          "value": -0.001872,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.4,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 33,
+          "value": -0.001872,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -2.25,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4,
+            "dv": 0
+          }
+        }
+      ],
+      "py": [
+        {
+          "frame": 0,
+          "value": 0.677254,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -6,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.0499999999999998,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 3,
+          "value": 0.6,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 8,
+          "value": 0.76,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.75,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4.55,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 21,
+          "value": 0.702254,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -5.8500000000000005,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 0.44999999999999996,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 24,
+          "value": 0.742254,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.4,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 28,
+          "value": 0.632254,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.4,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 33,
+          "value": 0.677254,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -2.25,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4,
+            "dv": 0
+          }
+        }
+      ],
+      "pz": [
+        {
+          "frame": 0,
+          "value": -0.028365,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -6,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.0499999999999998,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 3,
+          "value": -0.04,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 8,
+          "value": 0.02,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.75,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4.55,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 21,
+          "value": -0.028365,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -5.8500000000000005,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 0.44999999999999996,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 24,
+          "value": -0.028365,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.4,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 28,
+          "value": -0.028365,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.4,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 33,
+          "value": -0.028365,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -2.25,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4,
+            "dv": 0
+          }
+        }
+      ],
+      "rx": [
+        {
+          "frame": 0,
+          "value": 0.369888,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -6,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.0499999999999998,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 3,
+          "value": 0.52,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 8,
+          "value": 0.32,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.75,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4.55,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 21,
+          "value": 0.369888,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -5.8500000000000005,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 0.44999999999999996,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 24,
+          "value": 0.369888,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.4,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 28,
+          "value": 0.369888,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.4,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 33,
+          "value": 0.369888,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -2.25,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4,
+            "dv": 0
+          }
+        }
+      ],
+      "ry": [
+        {
+          "frame": 0,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -6,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.0499999999999998,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 3,
+          "value": 0.24,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 8,
+          "value": -0.18,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.75,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4.55,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 21,
+          "value": 0,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -5.8500000000000005,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 0.44999999999999996,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 24,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.4,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 28,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.4,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 33,
+          "value": 0,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -2.25,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4,
+            "dv": 0
+          }
+        }
+      ],
+      "rz": [
+        {
+          "frame": 0,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -6,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.0499999999999998,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 3,
+          "value": -0.1,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 8,
+          "value": 0.08,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.75,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4.55,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 21,
+          "value": 0,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -5.8500000000000005,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 0.44999999999999996,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 24,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.4,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 28,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.4,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 33,
+          "value": 0,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -2.25,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4,
+            "dv": 0
+          }
+        }
+      ]
+    },
+    "head": {
+      "px": [
+        {
+          "frame": 0,
+          "value": -0.062912,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -6,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.0499999999999998,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 3,
+          "value": -0.062912,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 8,
+          "value": -0.062912,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.75,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4.55,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 21,
+          "value": -0.062912,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -5.8500000000000005,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 0.44999999999999996,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 24,
+          "value": -0.062912,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.4,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 28,
+          "value": -0.062912,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.4,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 33,
+          "value": -0.062912,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -2.25,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4,
+            "dv": 0
+          }
+        }
+      ],
+      "py": [
+        {
+          "frame": 0,
+          "value": 1.220587,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -6,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.0499999999999998,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 3,
+          "value": 1.220587,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 8,
+          "value": 1.220587,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.75,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4.55,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 21,
+          "value": 1.220587,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -5.8500000000000005,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 0.44999999999999996,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 24,
+          "value": 1.220587,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.4,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 28,
+          "value": 1.220587,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.4,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 33,
+          "value": 1.220587,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -2.25,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4,
+            "dv": 0
+          }
+        }
+      ],
+      "pz": [
+        {
+          "frame": 0,
+          "value": 0.597739,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -6,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.0499999999999998,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 3,
+          "value": 0.597739,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 8,
+          "value": 0.597739,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.75,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4.55,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 21,
+          "value": 0.597739,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -5.8500000000000005,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 0.44999999999999996,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 24,
+          "value": 0.597739,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.4,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 28,
+          "value": 0.597739,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.4,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 33,
+          "value": 0.597739,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -2.25,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4,
+            "dv": 0
+          }
+        }
+      ],
+      "rx": [
+        {
+          "frame": 0,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -6,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.0499999999999998,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 3,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 8,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.75,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4.55,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 21,
+          "value": 0,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -5.8500000000000005,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 0.44999999999999996,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 24,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.4,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 28,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.4,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 33,
+          "value": 0,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -2.25,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4,
+            "dv": 0
+          }
+        }
+      ],
+      "ry": [
+        {
+          "frame": 0,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -6,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.0499999999999998,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 3,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 8,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.75,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4.55,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 21,
+          "value": 0,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -5.8500000000000005,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 0.44999999999999996,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 24,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.4,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 28,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.4,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 33,
+          "value": 0,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -2.25,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4,
+            "dv": 0
+          }
+        }
+      ],
+      "rz": [
+        {
+          "frame": 0,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -6,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.0499999999999998,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 3,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 8,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.75,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4.55,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 21,
+          "value": 0,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -5.8500000000000005,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 0.44999999999999996,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 24,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.4,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 28,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.4,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 33,
+          "value": 0,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -2.25,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4,
+            "dv": 0
+          }
+        }
+      ]
+    },
+    "footL": {
+      "px": [
+        {
+          "frame": 0,
+          "value": 0.16882,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -6,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.0499999999999998,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 3,
+          "value": 0.16882,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 8,
+          "value": 0.16882,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.75,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4.55,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 21,
+          "value": 0.16882,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -5.8500000000000005,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 0.44999999999999996,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 24,
+          "value": 0.16882,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.4,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 28,
+          "value": 0.16882,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.4,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 33,
+          "value": 0.16882,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -2.25,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4,
+            "dv": 0
+          }
+        }
+      ],
+      "py": [
+        {
+          "frame": 0,
+          "value": 0.067857,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -6,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.0499999999999998,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 3,
+          "value": 0.067857,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 8,
+          "value": 0.067857,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.75,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4.55,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 21,
+          "value": 0.067857,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -5.8500000000000005,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 0.44999999999999996,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 24,
+          "value": 0.112857,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.4,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 28,
+          "value": 0.067857,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.4,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 33,
+          "value": 0.067857,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -2.25,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4,
+            "dv": 0
+          }
+        }
+      ],
+      "pz": [
+        {
+          "frame": 0,
+          "value": 0.038724,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -6,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.0499999999999998,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 3,
+          "value": 0.038724,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 8,
+          "value": 0.038724,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.75,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4.55,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 21,
+          "value": 0.038724,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -5.8500000000000005,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 0.44999999999999996,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 24,
+          "value": 0.038724,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.4,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 28,
+          "value": 0.038724,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.4,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 33,
+          "value": 0.038724,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -2.25,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4,
+            "dv": 0
+          }
+        }
+      ],
+      "rx": [
+        {
+          "frame": 0,
+          "value": 0.255147,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -6,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.0499999999999998,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 3,
+          "value": 0.255147,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 8,
+          "value": 0.255147,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.75,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4.55,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 21,
+          "value": 0.255147,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -5.8500000000000005,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 0.44999999999999996,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 24,
+          "value": 0.255147,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.4,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 28,
+          "value": 0.255147,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.4,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 33,
+          "value": 0.255147,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -2.25,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4,
+            "dv": 0
+          }
+        }
+      ],
+      "ry": [
+        {
+          "frame": 0,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -6,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.0499999999999998,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 3,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 8,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.75,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4.55,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 21,
+          "value": 0,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -5.8500000000000005,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 0.44999999999999996,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 24,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.4,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 28,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.4,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 33,
+          "value": 0,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -2.25,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4,
+            "dv": 0
+          }
+        }
+      ],
+      "rz": [
+        {
+          "frame": 0,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -6,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.0499999999999998,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 3,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 8,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.75,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4.55,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 21,
+          "value": 0,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -5.8500000000000005,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 0.44999999999999996,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 24,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.4,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 28,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.4,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 33,
+          "value": 0,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -2.25,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4,
+            "dv": 0
+          }
+        }
+      ]
+    },
+    "footR": {
+      "px": [
+        {
+          "frame": 0,
+          "value": -0.450478,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -6,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.0499999999999998,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 3,
+          "value": -0.450478,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 8,
+          "value": -0.450478,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.75,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4.55,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 21,
+          "value": -0.450478,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -5.8500000000000005,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 0.44999999999999996,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 24,
+          "value": -0.450478,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.4,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 28,
+          "value": -0.450478,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.4,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 33,
+          "value": -0.450478,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -2.25,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4,
+            "dv": 0
+          }
+        }
+      ],
+      "py": [
+        {
+          "frame": 0,
+          "value": 0.06672027217523824,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -6,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.0499999999999998,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 3,
+          "value": 0.06672027217523824,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 8,
+          "value": 0.06672027217523824,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.75,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4.55,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 21,
+          "value": 0.06672,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -5.8500000000000005,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 0.44999999999999996,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 24,
+          "value": 0.11172,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.4,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 28,
+          "value": 0.06672,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.4,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 33,
+          "value": 0.06672,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -2.25,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4,
+            "dv": 0
+          }
+        }
+      ],
+      "pz": [
+        {
+          "frame": 0,
+          "value": -0.09666,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -6,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.0499999999999998,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 3,
+          "value": -0.09666,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 8,
+          "value": -0.09666,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.75,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4.55,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 21,
+          "value": -0.09666,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -5.8500000000000005,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 0.44999999999999996,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 24,
+          "value": -0.09666,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.4,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 28,
+          "value": -0.09666,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.4,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 33,
+          "value": -0.09666,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -2.25,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4,
+            "dv": 0
+          }
+        }
+      ],
+      "rx": [
+        {
+          "frame": 0,
+          "value": -0.009755,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -6,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.0499999999999998,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 3,
+          "value": -0.009755,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 8,
+          "value": -0.009755,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.75,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4.55,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 21,
+          "value": -0.009755,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -5.8500000000000005,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 0.44999999999999996,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 24,
+          "value": -0.009755,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.4,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 28,
+          "value": -0.009755,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.4,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 33,
+          "value": -0.009755,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -2.25,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4,
+            "dv": 0
+          }
+        }
+      ],
+      "ry": [
+        {
+          "frame": 0,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -6,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.0499999999999998,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 3,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 8,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.75,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4.55,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 21,
+          "value": 0,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -5.8500000000000005,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 0.44999999999999996,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 24,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.4,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 28,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.4,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 33,
+          "value": 0,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -2.25,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4,
+            "dv": 0
+          }
+        }
+      ],
+      "rz": [
+        {
+          "frame": 0,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -6,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.0499999999999998,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 3,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 8,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.75,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4.55,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 21,
+          "value": 0,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -5.8500000000000005,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 0.44999999999999996,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 24,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.4,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 28,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.4,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 33,
+          "value": 0,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -2.25,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4,
+            "dv": 0
+          }
+        }
+      ]
+    },
+    "handL": {
+      "px": [
+        {
+          "frame": 0,
+          "value": 0.251387,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -6,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.0499999999999998,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 3,
+          "value": 0.35,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 8,
+          "value": 0.28,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.75,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4.55,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 21,
+          "value": 0.251387,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -5.8500000000000005,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 0.44999999999999996,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 24,
+          "value": 0.251387,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.4,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 28,
+          "value": 0.251387,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.4,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 33,
+          "value": 0.251387,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -2.25,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4,
+            "dv": 0
+          }
+        }
+      ],
+      "py": [
+        {
+          "frame": 0,
+          "value": 0.80412,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -6,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.0499999999999998,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 3,
+          "value": 0.78,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 8,
+          "value": 0.86,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.75,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4.55,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 21,
+          "value": 0.80412,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -5.8500000000000005,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 0.44999999999999996,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 24,
+          "value": 0.84412,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.4,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 28,
+          "value": 0.7741199999999999,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.4,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 33,
+          "value": 0.80412,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -2.25,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4,
+            "dv": 0
+          }
+        }
+      ],
+      "pz": [
+        {
+          "frame": 0,
+          "value": -0.016458,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -6,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.0499999999999998,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 3,
+          "value": 0.05,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 8,
+          "value": -0.05,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.75,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4.55,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 21,
+          "value": -0.016458,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -5.8500000000000005,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 0.44999999999999996,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 24,
+          "value": -0.016458,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.4,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 28,
+          "value": -0.016458,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.4,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 33,
+          "value": -0.016458,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -2.25,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4,
+            "dv": 0
+          }
+        }
+      ],
+      "rx": [
+        {
+          "frame": 0,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -6,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.0499999999999998,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 3,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 8,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.75,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4.55,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 21,
+          "value": 0,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -5.8500000000000005,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 0.44999999999999996,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 24,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.4,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 28,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.4,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 33,
+          "value": 0,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -2.25,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4,
+            "dv": 0
+          }
+        }
+      ],
+      "ry": [
+        {
+          "frame": 0,
+          "value": 0.408902,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -6,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.0499999999999998,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 3,
+          "value": 0.5,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 8,
+          "value": 0.35,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.75,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4.55,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 21,
+          "value": 0.408902,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -5.8500000000000005,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 0.44999999999999996,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 24,
+          "value": 0.408902,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.4,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 28,
+          "value": 0.408902,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.4,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 33,
+          "value": 0.408902,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -2.25,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4,
+            "dv": 0
+          }
+        }
+      ],
+      "rz": [
+        {
+          "frame": 0,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -6,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.0499999999999998,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 3,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 8,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.75,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4.55,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 21,
+          "value": 0,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -5.8500000000000005,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 0.44999999999999996,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 24,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.4,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 28,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.4,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 33,
+          "value": 0,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -2.25,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4,
+            "dv": 0
+          }
+        }
+      ]
+    },
+    "handR": {
+      "px": [
+        {
+          "frame": 0,
+          "value": -0.504796,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -6,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.0499999999999998,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 3,
+          "value": 0.12,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 8,
+          "value": -0.38711347008081565,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.75,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4.55,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 21,
+          "value": -0.504796,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -5.8500000000000005,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 0.44999999999999996,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 24,
+          "value": -0.504796,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.4,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 28,
+          "value": -0.504796,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.4,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 33,
+          "value": -0.504796,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -2.25,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4,
+            "dv": 0
+          }
+        }
+      ],
+      "py": [
+        {
+          "frame": 0,
+          "value": 0.756381,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -6,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.0499999999999998,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 3,
+          "value": 0.68,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 8,
+          "value": 1.2451511400866389,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.75,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4.55,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 21,
+          "value": 0.756381,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -5.8500000000000005,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 0.44999999999999996,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 24,
+          "value": 0.796381,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.4,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 28,
+          "value": 0.7263809999999999,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.4,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 33,
+          "value": 0.756381,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -2.25,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4,
+            "dv": 0
+          }
+        }
+      ],
+      "pz": [
+        {
+          "frame": 0,
+          "value": 0.394926,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -6,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.0499999999999998,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 3,
+          "value": 0.26,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 8,
+          "value": 0.5364770968727941,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.75,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4.55,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 21,
+          "value": 0.394926,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -5.8500000000000005,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 0.44999999999999996,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 24,
+          "value": 0.394926,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.4,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 28,
+          "value": 0.394926,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.4,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 33,
+          "value": 0.394926,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -2.25,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4,
+            "dv": 0
+          }
+        }
+      ],
+      "rx": [
+        {
+          "frame": 0,
+          "value": -0.9329488755542719,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -6,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.0499999999999998,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 3,
+          "value": -0.22215548088645917,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 8,
+          "value": -0.7524072855985319,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.75,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4.55,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 21,
+          "value": -0.994999,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -5.8500000000000005,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 0.44999999999999996,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 24,
+          "value": -0.994999,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.4,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 28,
+          "value": -0.994999,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.4,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 33,
+          "value": -0.994999,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -2.25,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4,
+            "dv": 0
+          }
+        }
+      ],
+      "ry": [
+        {
+          "frame": 0,
+          "value": 0.5972110659095866,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -6,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.0499999999999998,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 3,
+          "value": 1.500347874160276,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 8,
+          "value": -1.0552385666164572,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.75,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4.55,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 21,
+          "value": 0.020933,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -5.8500000000000005,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 0.44999999999999996,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 24,
+          "value": 0.020933,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.4,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 28,
+          "value": 0.020933,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.4,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 33,
+          "value": 0.020933,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -2.25,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4,
+            "dv": 0
+          }
+        }
+      ],
+      "rz": [
+        {
+          "frame": 0,
+          "value": -0.05556511326780169,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -6,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.0499999999999998,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 3,
+          "value": 0.13161268066329992,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 8,
+          "value": -0.0415493885885945,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.75,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4.55,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 21,
+          "value": 0,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -5.8500000000000005,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 0.44999999999999996,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 24,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.4,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 28,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.4,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 33,
+          "value": 0,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -2.25,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4,
+            "dv": 0
+          }
+        }
+      ]
+    },
+    "poleKneeL": {
+      "px": [
+        {
+          "frame": 0,
+          "value": 0.32011,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -6,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.0499999999999998,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 3,
+          "value": 0.34,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 8,
+          "value": 0.32011,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.75,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4.55,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 21,
+          "value": 0.32011,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -5.8500000000000005,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 0.44999999999999996,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 24,
+          "value": 0.32011,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.4,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 28,
+          "value": 0.32011,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.4,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 33,
+          "value": 0.32011,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -2.25,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4,
+            "dv": 0
+          }
+        }
+      ],
+      "py": [
+        {
+          "frame": 0,
+          "value": 0.474629,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -6,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.0499999999999998,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 3,
+          "value": 0.45,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 8,
+          "value": 0.474629,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.75,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4.55,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 21,
+          "value": 0.474629,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -5.8500000000000005,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 0.44999999999999996,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 24,
+          "value": 0.474629,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.4,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 28,
+          "value": 0.474629,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.4,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 33,
+          "value": 0.474629,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -2.25,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4,
+            "dv": 0
+          }
+        }
+      ],
+      "pz": [
+        {
+          "frame": 0,
+          "value": 0.348878,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -6,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.0499999999999998,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 3,
+          "value": 0.45,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 8,
+          "value": 0.348878,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.75,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4.55,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 21,
+          "value": 0.348878,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -5.8500000000000005,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 0.44999999999999996,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 24,
+          "value": 0.348878,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.4,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 28,
+          "value": 0.408878,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.4,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 33,
+          "value": 0.348878,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -2.25,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4,
+            "dv": 0
+          }
+        }
+      ],
+      "rx": [
+        {
+          "frame": 0,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -6,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.0499999999999998,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 3,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 8,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.75,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4.55,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 21,
+          "value": 0,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -5.8500000000000005,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 0.44999999999999996,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 24,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.4,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 28,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.4,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 33,
+          "value": 0,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -2.25,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4,
+            "dv": 0
+          }
+        }
+      ],
+      "ry": [
+        {
+          "frame": 0,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -6,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.0499999999999998,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 3,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 8,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.75,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4.55,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 21,
+          "value": 0,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -5.8500000000000005,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 0.44999999999999996,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 24,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.4,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 28,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.4,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 33,
+          "value": 0,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -2.25,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4,
+            "dv": 0
+          }
+        }
+      ],
+      "rz": [
+        {
+          "frame": 0,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -6,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.0499999999999998,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 3,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 8,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.75,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4.55,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 21,
+          "value": 0,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -5.8500000000000005,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 0.44999999999999996,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 24,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.4,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 28,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.4,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 33,
+          "value": 0,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -2.25,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4,
+            "dv": 0
+          }
+        }
+      ]
+    },
+    "poleKneeR": {
+      "px": [
+        {
+          "frame": 0,
+          "value": -0.325568,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -6,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.0499999999999998,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 3,
+          "value": -0.3,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 8,
+          "value": -0.325568,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.75,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4.55,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 21,
+          "value": -0.325568,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -5.8500000000000005,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 0.44999999999999996,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 24,
+          "value": -0.325568,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.4,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 28,
+          "value": -0.325568,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.4,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 33,
+          "value": -0.325568,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -2.25,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4,
+            "dv": 0
+          }
+        }
+      ],
+      "py": [
+        {
+          "frame": 0,
+          "value": 0.548968,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -6,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.0499999999999998,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 3,
+          "value": 0.5,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 8,
+          "value": 0.548968,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.75,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4.55,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 21,
+          "value": 0.548968,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -5.8500000000000005,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 0.44999999999999996,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 24,
+          "value": 0.548968,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.4,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 28,
+          "value": 0.548968,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.4,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 33,
+          "value": 0.548968,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -2.25,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4,
+            "dv": 0
+          }
+        }
+      ],
+      "pz": [
+        {
+          "frame": 0,
+          "value": 0.494418,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -6,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.0499999999999998,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 3,
+          "value": 0.56,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 8,
+          "value": 0.494418,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.75,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4.55,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 21,
+          "value": 0.494418,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -5.8500000000000005,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 0.44999999999999996,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 24,
+          "value": 0.494418,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.4,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 28,
+          "value": 0.5544180000000001,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.4,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 33,
+          "value": 0.494418,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -2.25,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4,
+            "dv": 0
+          }
+        }
+      ],
+      "rx": [
+        {
+          "frame": 0,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -6,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.0499999999999998,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 3,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 8,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.75,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4.55,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 21,
+          "value": 0,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -5.8500000000000005,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 0.44999999999999996,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 24,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.4,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 28,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.4,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 33,
+          "value": 0,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -2.25,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4,
+            "dv": 0
+          }
+        }
+      ],
+      "ry": [
+        {
+          "frame": 0,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -6,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.0499999999999998,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 3,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 8,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.75,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4.55,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 21,
+          "value": 0,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -5.8500000000000005,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 0.44999999999999996,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 24,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.4,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 28,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.4,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 33,
+          "value": 0,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -2.25,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4,
+            "dv": 0
+          }
+        }
+      ],
+      "rz": [
+        {
+          "frame": 0,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -6,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.0499999999999998,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 3,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 8,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.75,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4.55,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 21,
+          "value": 0,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -5.8500000000000005,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 0.44999999999999996,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 24,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.0499999999999998,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.4,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 28,
+          "value": 0,
+          "interp": "bezier",
+          "handleIn": {
+            "df": -1.4,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 1.75,
+            "dv": 0
+          }
+        },
+        {
+          "frame": 33,
+          "value": 0,
+          "interp": "easeOut",
+          "handleIn": {
+            "df": -2.25,
+            "dv": 0
+          },
+          "handleOut": {
+            "df": 4,
+            "dv": 0
+          }
+        }
+      ]
+    }
+  }
+}

@@ -736,3 +736,38 @@ kbd {
   display: block;
   cursor: crosshair;
 }
+
+/* Zen / Solo Modello Mode */
+.zen-exit-btn {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 60;
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: rgba(20, 22, 26, 0.65);
+  color: var(--text-main);
+  backdrop-filter: blur(8px);
+  cursor: pointer;
+  font-size: 12px;
+  opacity: 0.45;
+  transition: opacity 0.2s, background 0.2s;
+}
+
+.zen-exit-btn:hover {
+  opacity: 1;
+  background: rgba(29, 32, 38, 0.9);
+}
+
+.zen-exit-btn.hidden {
+  display: none;
+}
+
+body.zen-mode #topbar,
+body.zen-mode #inspector,
+body.zen-mode #viewport-hud,
+body.zen-mode #bottom-dock {
+  display: none;
+}
+

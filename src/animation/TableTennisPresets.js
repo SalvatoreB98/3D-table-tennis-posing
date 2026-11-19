@@ -2,6 +2,8 @@
  * Built-in Table Tennis stroke animations (world-space IK targets matching the Mixamo rig).
  * Each animation includes: Stroke -> Cushioned Slow Recovery -> Split Step -> Ready Idle.
  */
+import pushRovescioData from './pushRovescio.json';
+import topRovescioData from './topRovescio.json';
 
 const IDLE_POSE = {
   hips: [-0.001872, 0.677254, -0.028365, 0.369888, 0, 0],
@@ -194,48 +196,11 @@ export function getTableTennisPresetAnimation(type) {
   }
 
   if (type === 'anim_push_bh') {
-    // Backhand Push: Ready -> Tuck in front of stomach -> Forward slice under ball -> Recovery + Split Step
-    pushPoseFrame(tracks, 0, IDLE_POSE);
-    pushPoseFrame(tracks, 4, {
-      ...IDLE_POSE,
-      hips: [0.04, 0.69, 0.04, 0.42, 0.15, 0],
-      footR: [-0.36, 0.14, 0.14, -0.01, -0.25, 0],
-      poleKneeR: [-0.25, 0.52, 0.55, 0, 0, 0],
-      handR: [0.06, 0.88, 0.26, -0.65, 0.25, 0.45],
-      handL: [0.34, 0.82, 0.06, 0, 0.45, 0],
-    });
-    pushPoseFrame(tracks, 9, {
-      ...IDLE_POSE,
-      head: [0.04, 1.18, 0.72, 0, 0, 0],
-      hips: [0.08, 0.65, 0.12, 0.50, -0.08, 0],
-      footR: [-0.28, 0.07, 0.34, -0.01, -0.45, 0],
-      poleKneeR: [-0.18, 0.48, 0.62, 0, 0, 0],
-      handR: [0.12, 0.74, 0.62, -0.35, -0.45, 0.65],
-      handL: [0.40, 0.80, 0.12, -0.4, 0.3, 0],
-    });
-    const totalFrames = appendRecoveryAndSplitStep(tracks, 9, true);
-    return { fps: 30, totalFrames, tracks };
+    return structuredClone(pushRovescioData);
   }
 
   if (type === 'anim_top_bh') {
-    // Backhand Topspin: Ready -> Deep crouch & wrist cock in front of waist -> Explosive forward-up whip
-    pushPoseFrame(tracks, 0, IDLE_POSE);
-    pushPoseFrame(tracks, 3, {
-      ...IDLE_POSE,
-      hips: [0.04, 0.60, -0.04, 0.52, 0.24, -0.10],
-      poleKneeL: [0.34, 0.45, 0.45, 0, 0, 0],
-      poleKneeR: [-0.30, 0.50, 0.56, 0, 0, 0],
-      handR: [0.12, 0.68, 0.26, -0.85, 0.65, 0.85],
-      handL: [0.35, 0.78, 0.05, 0, 0.5, 0],
-    });
-    pushPoseFrame(tracks, 8, {
-      ...IDLE_POSE,
-      hips: [-0.04, 0.76, 0.02, 0.32, -0.18, 0.08],
-      handR: [-0.24, 1.18, 0.56, -1.75, -0.35, -0.45],
-      handL: [0.28, 0.86, -0.05, 0, 0.35, 0],
-    });
-    const totalFrames = appendRecoveryAndSplitStep(tracks, 8, false);
-    return { fps: 30, totalFrames, tracks };
+    return structuredClone(topRovescioData);
   }
 
   if (type === 'anim_smash_jump') {

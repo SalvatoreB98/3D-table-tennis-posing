@@ -4,8 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>KineticPoser 3D — Smart IK & Animation Studio</title>
-  <script type="module" crossorigin src="/assets/index-Z0mCXNTB.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-B9cjzaot.css">
+  <script type="module" crossorigin src="/assets/index-CcHQwP4S.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-CFWtlDaj.css">
 </head>
 <body>
   <div id="app">
@@ -82,6 +82,7 @@
           <span>📥 Carica</span>
           <input type="file" id="json-input" accept=".json" hidden />
         </label>
+        <button id="btn-zen-mode" class="btn btn-secondary" title="Nascondi tutta la UI e i controller (H)">👁 Solo Modello <kbd>H</kbd></button>
       </div>
     </header>
 
@@ -90,6 +91,7 @@
       <!-- 3D Viewport -->
       <div id="viewport-container">
         <canvas id="three-canvas"></canvas>
+        <button id="btn-exit-zen" class="zen-exit-btn hidden" title="Ripristina la UI (H)">👁 Mostra UI <kbd>H</kbd></button>
 
         <!-- Drop overlay -->
         <div id="drop-overlay" class="hidden">
