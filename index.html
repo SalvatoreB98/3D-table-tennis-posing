@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KineticPoser 3D — Smart IK & Animation Studio</title>
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+  <div id="app">
+    <!-- Top Toolbar -->
+    <header id="topbar">
+      <div class="brand">
+        <span class="brand-dot"></span>
+        <span class="brand-title">KineticPoser <strong>3D</strong></span>
+      </div>
+
+      <div class="toolbar-group">
+        <label class="btn btn-secondary" title="Carica un altro file .glb/.gltf">
+          <span>📂 Importa GLB</span>
+          <input type="file" id="file-input" accept=".glb,.gltf" hidden />
+        </label>
+        <button id="btn-reset-pose" class="btn btn-secondary" title="Ripristina la posa iniziale">↺ Reset Posa</button>
+      </div>
+
+      <div class="toolbar-divider"></div>
+
+      <div class="toolbar-group">
+        <button id="btn-mode-translate" class="btn btn-tool active" title="Sposta (G)">✥ Sposta <kbd>G</kbd></button>
+        <button id="btn-mode-rotate" class="btn btn-tool" title="Ruota (R)">⟳ Ruota <kbd>R</kbd></button>
+        <button id="btn-space-toggle" class="btn btn-secondary" title="Cambia spazio Globale / Locale">🌐 Globale</button>
+      </div>
+
+      <div class="toolbar-divider"></div>
+
+      <div class="toolbar-group">
+        <label class="toggle-chip active" title="Quando sposti il bacino, i piedi restano ancorati e le ginocchia si piegano naturalmente">
+          <input type="checkbox" id="chk-foot-pin" checked />
+          <span>🦶 Piedi Ancorati</span>
+        </label>
+        <label class="toggle-chip active" title="Il busto e il bacino seguono automaticamente i movimenti ampi di mani e piedi">
+          <input type="checkbox" id="chk-body-follow" checked />
+          <span>🧠 Smart Body</span>
+        </label>
+        <label class="toggle-chip" title="Mostra le ossa interne dello scheletro">
+          <input type="checkbox" id="chk-skeleton" />
+          <span>🦴 Scheletro</span>
+        </label>
+        <label class="toggle-chip active" title="Mostra la traiettoria 3D del controller selezionato">
+          <input type="checkbox" id="chk-motion-path" checked />
+          <span>〰 Traiettoria</span>
+        </label>
+      </div>
+
+      <div class="toolbar-divider"></div>
+
+      <div class="toolbar-group">
+        <select id="bat-select" class="select-input" title="Racchetta ancorata alla mano">
+          <option value="right" selected>🏓 Racchetta: Mano DX</option>
+          <option value="left">🏓 Racchetta: Mano SX</option>
+          <option value="none">🏓 Racchetta: Off</option>
+        </select>
+        <select id="preset-select" class="select-input" title="Applica una posa rapida">
+          <option value="">⚡ Pose Rapide...</option>
+          <option value="idle">🧍 Idle Naturale</option>
+          <option value="ready">🏓 Pronto (Ping Pong)</option>
+          <option value="forehand">💥 Dritto (Forehand)</option>
+          <option value="squat">🏋️ Basso / Piegato</option>
+          <option value="anim_top">🎬 Anim: Top Leggero</option>
+          <option value="anim_taglio">🎬 Anim: Taglio (Backspin)</option>
+          <option value="anim_apertura">🎬 Anim: Apertura su Taglio</option>
+          <option value="anim_push">🎬 Anim: Push (Passo Avanti)</option>
+          <option value="demo_anim">🎬 Carica Animazione Demo</option>
+        </select>
+        <button id="btn-export-json" class="btn btn-secondary" title="Esporta animazione in JSON">💾 Salva</button>
+        <label class="btn btn-secondary" title="Carica animazione da JSON">
+          <span>📥 Carica</span>
+          <input type="file" id="json-input" accept=".json" hidden />
+        </label>
+      </div>
+    </header>
+
+    <!-- Main Workspace -->
+    <div id="workspace">
+      <!-- 3D Viewport -->
+      <div id="viewport-container">
+        <canvas id="three-canvas"></canvas>
+
+        <!-- Drop overlay -->
+        <div id="drop-overlay" class="hidden">
+          <div class="drop-card">Trascina qui il tuo file <strong>.GLB</strong> o <strong>.GLTF</strong></div>
+        </div>
+
+        <!-- Viewport HUD -->
+        <div id="viewport-hud">
+          <div id="status-badge">Caricamento modello...</div>
+          <div class="hud-hint">
+            Clicca un controller colorato per muovere · <kbd>G</kbd> Sposta · <kbd>R</kbd> Ruota · <kbd>I</kbd> Keyframe · <kbd>Spazio</kbd> Play
+          </div>
+        </div>
+
+        <!-- Floating Right Inspector -->
+        <aside id="inspector">
+          <div class="inspector-section">
+            <div class="section-title">Controller IK</div>
+            <div id="handle-list" class="handle-grid"></div>
+          </div>
+
+          <div class="inspector-section" id="selected-info">
+            <div class="section-title">
+              <span id="selected-name">Nessuno selezionato</span>
+              <button id="btn-reset-handle" class="btn-mini" title="Ripristina questo controller">↺</button>
+            </div>
+            <div class="coord-grid">
+              <div class="coord-row">
+                <span class="coord-label">Pos</span>
+                <label class="axis-x">X <input type="number" step="0.02" id="inp-px" /></label>
+                <label class="axis-y">Y <input type="number" step="0.02" id="inp-py" /></label>
+                <label class="axis-z">Z <input type="number" step="0.02" id="inp-pz" /></label>
+              </div>
+              <div class="coord-row">
+                <span class="coord-label">Rot</span>
+                <label class="axis-x">X <input type="number" step="2" id="inp-rx" /></label>
+                <label class="axis-y">Y <input type="number" step="2" id="inp-ry" /></label>
+                <label class="axis-z">Z <input type="number" step="2" id="inp-rz" /></label>
+              </div>
+            </div>
+          </div>
+
+          <div class="inspector-section" id="bat-inspector">
+            <div class="section-title">
+              <span>🏓 Racchetta</span>
+              <div>
+                <button id="btn-copy-bat" class="btn-mini" title="Copia valori Pos/Rot">📋</button>
+                <button id="btn-reset-bat" class="btn-mini" title="Ripristina posizione racchetta">↺</button>
+              </div>
+            </div>
+            <div class="bat-sliders">
+              <div class="bat-row"><span class="axis-x">PX</span><input type="range" id="bat-px-rng" min="-0.15" max="0.15" step="0.002" /><input type="number" id="bat-px-num" step="0.002" /></div>
+              <div class="bat-row"><span class="axis-y">PY</span><input type="range" id="bat-py-rng" min="-0.1" max="0.25" step="0.002" /><input type="number" id="bat-py-num" step="0.002" /></div>
+              <div class="bat-row"><span class="axis-z">PZ</span><input type="range" id="bat-pz-rng" min="-0.15" max="0.15" step="0.002" /><input type="number" id="bat-pz-num" step="0.002" /></div>
+              <div class="bat-row"><span class="axis-x">RX</span><input type="range" id="bat-rx-rng" min="-180" max="180" step="1" /><input type="number" id="bat-rx-num" step="1" /></div>
+              <div class="bat-row"><span class="axis-y">RY</span><input type="range" id="bat-ry-rng" min="-180" max="180" step="1" /><input type="number" id="bat-ry-num" step="1" /></div>
+              <div class="bat-row"><span class="axis-z">RZ</span><input type="range" id="bat-rz-rng" min="-180" max="180" step="1" /><input type="number" id="bat-rz-num" step="1" /></div>
+              <div class="bat-row"><span style="color:#a78bfa">👁</span><input type="range" id="bat-view-rng" min="-180" max="180" value="0" step="1" title="Ruota rispetto alla vista attuale della camera" /><input type="number" id="bat-view-num" value="0" step="1" readonly /></div>
+            </div>
+          </div>
+        </aside>
+      </div>
+
+      <!-- Bottom Animation Dock -->
+      <section id="bottom-dock">
+        <div id="dock-resizer" title="Trascina per ridimensionare"></div>
+
+        <!-- Playback & Keyframe Controls -->
+        <div id="timeline-toolbar">
+          <div class="tl-group">
+            <button id="btn-prev-key" class="btn-icon" title="Keyframe precedente">⏮</button>
+            <button id="btn-play" class="btn-icon btn-play" title="Play / Pausa (Spazio)">▶</button>
+            <button id="btn-stop" class="btn-icon" title="Torna a frame 0">⏹</button>
+            <button id="btn-next-key" class="btn-icon" title="Keyframe successivo">⏭</button>
+            <label class="toggle-chip small active" title="Ripeti animazione in loop">
+              <input type="checkbox" id="chk-loop" checked />
+              <span>🔁 Loop</span>
+            </label>
+          </div>
+
+          <div class="tl-group">
+            <span class="tl-label">Frame</span>
+            <input type="number" id="inp-frame" min="0" max="240" value="0" class="num-mini" />
+            <span class="tl-label">/</span>
+            <input type="number" id="inp-total-frames" min="10" max="600" value="90" class="num-mini" />
+            <select id="sel-fps" class="select-mini" title="Fotogrammi al secondo">
+              <option value="24">24 fps</option>
+              <option value="30" selected>30 fps</option>
+              <option value="60">60 fps</option>
+            </select>
+          </div>
+
+          <div class="tl-group">
+            <label class="toggle-chip small autokey" title="Registra automaticamente i keyframe quando sposti un controller">
+              <input type="checkbox" id="chk-autokey" />
+              <span>⏺ Auto-Key</span>
+            </label>
+            <button id="btn-add-key" class="btn btn-primary btn-sm" title="Aggiungi Keyframe al frame corrente (I)">◆ + Keyframe <kbd>I</kbd></button>
+            <button id="btn-del-key" class="btn btn-danger btn-sm" title="Elimina Keyframe selezionato (Canc)">✕ Elimina Key</button>
+          </div>
+
+          <div class="tl-group tl-tabs">
+            <button class="tab-btn active" data-view="split">Split (Timeline + Curve)</button>
+            <button class="tab-btn" data-view="dopesheet">Dope Sheet</button>
+            <button class="tab-btn" data-view="graph">Graph Editor</button>
+          </div>
+        </div>
+
+        <!-- Split / Tabbed Content -->
+        <div id="animation-views" class="view-split">
+          <!-- Dope Sheet -->
+          <div id="dopesheet-panel">
+            <div id="dopesheet-header">
+              <div class="ds-track-col">Tracce IK</div>
+              <div id="ds-ruler-wrap">
+                <canvas id="ds-ruler-canvas"></canvas>
+              </div>
+            </div>
+            <div id="dopesheet-body">
+              <div id="ds-tracks-list"></div>
+              <div id="ds-keys-area">
+                <canvas id="ds-keys-canvas"></canvas>
+              </div>
+            </div>
+          </div>
+
+          <!-- Graph Editor (Blender-style simple curve editor) -->
+          <div id="graph-panel">
+            <div id="graph-toolbar">
+              <span class="graph-title">📈 Graph Editor <small id="graph-target-label">(Seleziona un controller)</small></span>
+              <div class="channel-toggles">
+                <label class="ch-chip ch-x"><input type="checkbox" id="chk-ch-x" checked /> X</label>
+                <label class="ch-chip ch-y"><input type="checkbox" id="chk-ch-y" checked /> Y</label>
+                <label class="ch-chip ch-z"><input type="checkbox" id="chk-ch-z" checked /> Z</label>
+              </div>
+              <div class="easing-presets">
+                <span class="tl-label">Curva:</span>
+                <button class="ease-btn active" data-ease="bezier" title="Curva morbida con maniglie trascinabili">〰 Smooth</button>
+                <button class="ease-btn" data-ease="linear" title="Velocità costante">╱ Linear</button>
+                <button class="ease-btn" data-ease="easeIn" title="Parte piano, accelera">╭ Ease In</button>
+                <button class="ease-btn" data-ease="easeOut" title="Parte veloce, frena">╮ Ease Out</button>
+                <button class="ease-btn" data-ease="step" title="Salto istantaneo">┌ Step</button>
+              </div>
+              <button id="btn-graph-fit" class="btn-mini" title="Adatta zoom alle curve">⤢ Adatta</button>
+            </div>
+            <div id="graph-canvas-wrap">
+              <canvas id="graph-canvas"></canvas>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

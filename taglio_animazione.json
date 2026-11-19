@@ -1,0 +1,262 @@
+{
+  "fps": 30,
+  "totalFrames": 90,
+  "tracks": {
+    "hips": {
+      "px": [
+        { "frame": 0, "value": -0.005037365441292585, "interp": "bezier", "handleIn": { "df": -6, "dv": 0 }, "handleOut": { "df": 1.4, "dv": 0 } },
+        { "frame": 4, "value": -0.03, "interp": "bezier", "handleIn": { "df": -1.4, "dv": 0 }, "handleOut": { "df": 2.1, "dv": 0 } },
+        { "frame": 10, "value": 0.02, "interp": "bezier", "handleIn": { "df": -2.1, "dv": 0 }, "handleOut": { "df": 6, "dv": 0 } }
+      ],
+      "py": [
+        { "frame": 0, "value": 0.7380845460927183, "interp": "bezier", "handleIn": { "df": -6, "dv": 0 }, "handleOut": { "df": 1.4, "dv": 0 } },
+        { "frame": 4, "value": 0.75, "interp": "bezier", "handleIn": { "df": -1.4, "dv": 0 }, "handleOut": { "df": 2.1, "dv": 0 } },
+        { "frame": 10, "value": 0.68, "interp": "bezier", "handleIn": { "df": -2.1, "dv": 0 }, "handleOut": { "df": 6, "dv": 0 } }
+      ],
+      "pz": [
+        { "frame": 0, "value": -0.08417307584513087, "interp": "bezier", "handleIn": { "df": -6, "dv": 0 }, "handleOut": { "df": 1.4, "dv": 0 } },
+        { "frame": 4, "value": -0.09, "interp": "bezier", "handleIn": { "df": -1.4, "dv": 0 }, "handleOut": { "df": 2.1, "dv": 0 } },
+        { "frame": 10, "value": -0.03, "interp": "bezier", "handleIn": { "df": -2.1, "dv": 0 }, "handleOut": { "df": 6, "dv": 0 } }
+      ],
+      "rx": [
+        { "frame": 0, "value": 0.4943254843060639, "interp": "bezier", "handleIn": { "df": -6, "dv": 0 }, "handleOut": { "df": 1.4, "dv": 0 } },
+        { "frame": 4, "value": 0.42, "interp": "bezier", "handleIn": { "df": -1.4, "dv": 0 }, "handleOut": { "df": 2.1, "dv": 0 } },
+        { "frame": 10, "value": 0.56, "interp": "bezier", "handleIn": { "df": -2.1, "dv": 0 }, "handleOut": { "df": 6, "dv": 0 } }
+      ],
+      "ry": [
+        { "frame": 0, "value": -0.32613559560869465, "interp": "bezier", "handleIn": { "df": -6, "dv": 0 }, "handleOut": { "df": 1.4, "dv": 0 } },
+        { "frame": 4, "value": -0.56, "interp": "bezier", "handleIn": { "df": -1.4, "dv": 0 }, "handleOut": { "df": 2.1, "dv": 0 } },
+        { "frame": 10, "value": 0.08, "interp": "bezier", "handleIn": { "df": -2.1, "dv": 0 }, "handleOut": { "df": 6, "dv": 0 } }
+      ],
+      "rz": [
+        { "frame": 0, "value": 0.17098753868690314, "interp": "bezier", "handleIn": { "df": -6, "dv": 0 }, "handleOut": { "df": 1.4, "dv": 0 } },
+        { "frame": 4, "value": 0.25, "interp": "bezier", "handleIn": { "df": -1.4, "dv": 0 }, "handleOut": { "df": 2.1, "dv": 0 } },
+        { "frame": 10, "value": 0.04, "interp": "bezier", "handleIn": { "df": -2.1, "dv": 0 }, "handleOut": { "df": 6, "dv": 0 } }
+      ]
+    },
+    "head": {
+      "px": [
+        { "frame": 0, "value": 0.45745209088090016, "interp": "bezier", "handleIn": { "df": -6, "dv": 0 }, "handleOut": { "df": 1.4, "dv": 0 } },
+        { "frame": 4, "value": 0.45745209088090016, "interp": "bezier", "handleIn": { "df": -1.4, "dv": 0 }, "handleOut": { "df": 2.1, "dv": 0 } },
+        { "frame": 10, "value": 0.45745209088090016, "interp": "bezier", "handleIn": { "df": -2.1, "dv": 0 }, "handleOut": { "df": 6, "dv": 0 } }
+      ],
+      "py": [
+        { "frame": 0, "value": 1.5599974435582757, "interp": "bezier", "handleIn": { "df": -6, "dv": 0 }, "handleOut": { "df": 1.4, "dv": 0 } },
+        { "frame": 4, "value": 1.5599974435582757, "interp": "bezier", "handleIn": { "df": -1.4, "dv": 0 }, "handleOut": { "df": 2.1, "dv": 0 } },
+        { "frame": 10, "value": 1.48, "interp": "bezier", "handleIn": { "df": -2.1, "dv": 0 }, "handleOut": { "df": 6, "dv": 0 } }
+      ],
+      "pz": [
+        { "frame": 0, "value": 1.0230146368372373, "interp": "bezier", "handleIn": { "df": -6, "dv": 0 }, "handleOut": { "df": 1.4, "dv": 0 } },
+        { "frame": 4, "value": 1.0230146368372373, "interp": "bezier", "handleIn": { "df": -1.4, "dv": 0 }, "handleOut": { "df": 2.1, "dv": 0 } },
+        { "frame": 10, "value": 1.0230146368372373, "interp": "bezier", "handleIn": { "df": -2.1, "dv": 0 }, "handleOut": { "df": 6, "dv": 0 } }
+      ],
+      "rx": [
+        { "frame": 0, "value": 0, "interp": "bezier", "handleIn": { "df": -6, "dv": 0 }, "handleOut": { "df": 1.4, "dv": 0 } },
+        { "frame": 4, "value": 0, "interp": "bezier", "handleIn": { "df": -1.4, "dv": 0 }, "handleOut": { "df": 2.1, "dv": 0 } },
+        { "frame": 10, "value": 0, "interp": "bezier", "handleIn": { "df": -2.1, "dv": 0 }, "handleOut": { "df": 6, "dv": 0 } }
+      ],
+      "ry": [
+        { "frame": 0, "value": 0, "interp": "bezier", "handleIn": { "df": -6, "dv": 0 }, "handleOut": { "df": 1.4, "dv": 0 } },
+        { "frame": 4, "value": 0, "interp": "bezier", "handleIn": { "df": -1.4, "dv": 0 }, "handleOut": { "df": 2.1, "dv": 0 } },
+        { "frame": 10, "value": 0, "interp": "bezier", "handleIn": { "df": -2.1, "dv": 0 }, "handleOut": { "df": 6, "dv": 0 } }
+      ],
+      "rz": [
+        { "frame": 0, "value": 0, "interp": "bezier", "handleIn": { "df": -6, "dv": 0 }, "handleOut": { "df": 1.4, "dv": 0 } },
+        { "frame": 4, "value": 0, "interp": "bezier", "handleIn": { "df": -1.4, "dv": 0 }, "handleOut": { "df": 2.1, "dv": 0 } },
+        { "frame": 10, "value": 0, "interp": "bezier", "handleIn": { "df": -2.1, "dv": 0 }, "handleOut": { "df": 6, "dv": 0 } }
+      ]
+    },
+    "footL": {
+      "px": [
+        { "frame": 0, "value": 0.16882027708011643, "interp": "bezier", "handleIn": { "df": -6, "dv": 0 }, "handleOut": { "df": 1.4, "dv": 0 } },
+        { "frame": 4, "value": 0.16882027708011643, "interp": "bezier", "handleIn": { "df": -1.4, "dv": 0 }, "handleOut": { "df": 2.1, "dv": 0 } },
+        { "frame": 10, "value": 0.16882027708011643, "interp": "bezier", "handleIn": { "df": -2.1, "dv": 0 }, "handleOut": { "df": 6, "dv": 0 } }
+      ],
+      "py": [
+        { "frame": 0, "value": 0.06785725918274699, "interp": "bezier", "handleIn": { "df": -6, "dv": 0 }, "handleOut": { "df": 1.4, "dv": 0 } },
+        { "frame": 4, "value": 0.06785725918274699, "interp": "bezier", "handleIn": { "df": -1.4, "dv": 0 }, "handleOut": { "df": 2.1, "dv": 0 } },
+        { "frame": 10, "value": 0.06785725918274699, "interp": "bezier", "handleIn": { "df": -2.1, "dv": 0 }, "handleOut": { "df": 6, "dv": 0 } }
+      ],
+      "pz": [
+        { "frame": 0, "value": 0.038724031834127454, "interp": "bezier", "handleIn": { "df": -6, "dv": 0 }, "handleOut": { "df": 1.4, "dv": 0 } },
+        { "frame": 4, "value": 0.038724031834127454, "interp": "bezier", "handleIn": { "df": -1.4, "dv": 0 }, "handleOut": { "df": 2.1, "dv": 0 } },
+        { "frame": 10, "value": 0.038724031834127454, "interp": "bezier", "handleIn": { "df": -2.1, "dv": 0 }, "handleOut": { "df": 6, "dv": 0 } }
+      ],
+      "rx": [
+        { "frame": 0, "value": 0, "interp": "bezier", "handleIn": { "df": -6, "dv": 0 }, "handleOut": { "df": 1.4, "dv": 0 } },
+        { "frame": 4, "value": 0, "interp": "bezier", "handleIn": { "df": -1.4, "dv": 0 }, "handleOut": { "df": 2.1, "dv": 0 } },
+        { "frame": 10, "value": 0, "interp": "bezier", "handleIn": { "df": -2.1, "dv": 0 }, "handleOut": { "df": 6, "dv": 0 } }
+      ],
+      "ry": [
+        { "frame": 0, "value": 0, "interp": "bezier", "handleIn": { "df": -6, "dv": 0 }, "handleOut": { "df": 1.4, "dv": 0 } },
+        { "frame": 4, "value": 0, "interp": "bezier", "handleIn": { "df": -1.4, "dv": 0 }, "handleOut": { "df": 2.1, "dv": 0 } },
+        { "frame": 10, "value": 0, "interp": "bezier", "handleIn": { "df": -2.1, "dv": 0 }, "handleOut": { "df": 6, "dv": 0 } }
+      ],
+      "rz": [
+        { "frame": 0, "value": 0, "interp": "bezier", "handleIn": { "df": -6, "dv": 0 }, "handleOut": { "df": 1.4, "dv": 0 } },
+        { "frame": 4, "value": 0, "interp": "bezier", "handleIn": { "df": -1.4, "dv": 0 }, "handleOut": { "df": 2.1, "dv": 0 } },
+        { "frame": 10, "value": 0, "interp": "bezier", "handleIn": { "df": -2.1, "dv": 0 }, "handleOut": { "df": 6, "dv": 0 } }
+      ]
+    },
+    "footR": {
+      "px": [
+        { "frame": 0, "value": -0.547198696441366, "interp": "bezier", "handleIn": { "df": -6, "dv": 0 }, "handleOut": { "df": 1.4, "dv": 0 } },
+        { "frame": 4, "value": -0.547198696441366, "interp": "bezier", "handleIn": { "df": -1.4, "dv": 0 }, "handleOut": { "df": 2.1, "dv": 0 } },
+        { "frame": 10, "value": -0.547198696441366, "interp": "bezier", "handleIn": { "df": -2.1, "dv": 0 }, "handleOut": { "df": 6, "dv": 0 } }
+      ],
+      "py": [
+        { "frame": 0, "value": 0.1153619185580276, "interp": "bezier", "handleIn": { "df": -6, "dv": 0 }, "handleOut": { "df": 1.4, "dv": 0 } },
+        { "frame": 4, "value": 0.1153619185580276, "interp": "bezier", "handleIn": { "df": -1.4, "dv": 0 }, "handleOut": { "df": 2.1, "dv": 0 } },
+        { "frame": 10, "value": 0.1153619185580276, "interp": "bezier", "handleIn": { "df": -2.1, "dv": 0 }, "handleOut": { "df": 6, "dv": 0 } }
+      ],
+      "pz": [
+        { "frame": 0, "value": -0.1276993050176206, "interp": "bezier", "handleIn": { "df": -6, "dv": 0 }, "handleOut": { "df": 1.4, "dv": 0 } },
+        { "frame": 4, "value": -0.1276993050176206, "interp": "bezier", "handleIn": { "df": -1.4, "dv": 0 }, "handleOut": { "df": 2.1, "dv": 0 } },
+        { "frame": 10, "value": -0.1276993050176206, "interp": "bezier", "handleIn": { "df": -2.1, "dv": 0 }, "handleOut": { "df": 6, "dv": 0 } }
+      ],
+      "rx": [
+        { "frame": 0, "value": 0.06758690807369598, "interp": "bezier", "handleIn": { "df": -6, "dv": 0 }, "handleOut": { "df": 1.4, "dv": 0 } },
+        { "frame": 4, "value": 0.06758690807369598, "interp": "bezier", "handleIn": { "df": -1.4, "dv": 0 }, "handleOut": { "df": 2.1, "dv": 0 } },
+        { "frame": 10, "value": 0.06758690807369598, "interp": "bezier", "handleIn": { "df": -2.1, "dv": 0 }, "handleOut": { "df": 6, "dv": 0 } }
+      ],
+      "ry": [
+        { "frame": 0, "value": -0.5555399818923379, "interp": "bezier", "handleIn": { "df": -6, "dv": 0 }, "handleOut": { "df": 1.4, "dv": 0 } },
+        { "frame": 4, "value": -0.5555399818923379, "interp": "bezier", "handleIn": { "df": -1.4, "dv": 0 }, "handleOut": { "df": 2.1, "dv": 0 } },
+        { "frame": 10, "value": -0.5555399818923379, "interp": "bezier", "handleIn": { "df": -2.1, "dv": 0 }, "handleOut": { "df": 6, "dv": 0 } }
+      ],
+      "rz": [
+        { "frame": 0, "value": 0.1354730877238207, "interp": "bezier", "handleIn": { "df": -6, "dv": 0 }, "handleOut": { "df": 1.4, "dv": 0 } },
+        { "frame": 4, "value": 0.1354730877238207, "interp": "bezier", "handleIn": { "df": -1.4, "dv": 0 }, "handleOut": { "df": 2.1, "dv": 0 } },
+        { "frame": 10, "value": 0.1354730877238207, "interp": "bezier", "handleIn": { "df": -2.1, "dv": 0 }, "handleOut": { "df": 6, "dv": 0 } }
+      ]
+    },
+    "handL": {
+      "px": [
+        { "frame": 0, "value": 0.21533975251509074, "interp": "bezier", "handleIn": { "df": -6, "dv": 0 }, "handleOut": { "df": 1.4, "dv": 0 } },
+        { "frame": 4, "value": 0.21533975251509074, "interp": "bezier", "handleIn": { "df": -1.4, "dv": 0 }, "handleOut": { "df": 2.1, "dv": 0 } },
+        { "frame": 10, "value": 0.24, "interp": "bezier", "handleIn": { "df": -2.1, "dv": 0 }, "handleOut": { "df": 6, "dv": 0 } }
+      ],
+      "py": [
+        { "frame": 0, "value": 0.9952884496885372, "interp": "bezier", "handleIn": { "df": -6, "dv": 0 }, "handleOut": { "df": 1.4, "dv": 0 } },
+        { "frame": 4, "value": 1.04, "interp": "bezier", "handleIn": { "df": -1.4, "dv": 0 }, "handleOut": { "df": 2.1, "dv": 0 } },
+        { "frame": 10, "value": 0.96, "interp": "bezier", "handleIn": { "df": -2.1, "dv": 0 }, "handleOut": { "df": 6, "dv": 0 } }
+      ],
+      "pz": [
+        { "frame": 0, "value": 0.23244843167833684, "interp": "bezier", "handleIn": { "df": -6, "dv": 0 }, "handleOut": { "df": 1.4, "dv": 0 } },
+        { "frame": 4, "value": 0.23244843167833684, "interp": "bezier", "handleIn": { "df": -1.4, "dv": 0 }, "handleOut": { "df": 2.1, "dv": 0 } },
+        { "frame": 10, "value": 0.18, "interp": "bezier", "handleIn": { "df": -2.1, "dv": 0 }, "handleOut": { "df": 6, "dv": 0 } }
+      ],
+      "rx": [
+        { "frame": 0, "value": -1.6138152197942817, "interp": "bezier", "handleIn": { "df": -6, "dv": 0 }, "handleOut": { "df": 1.4, "dv": 0 } },
+        { "frame": 4, "value": -1.6138152197942817, "interp": "bezier", "handleIn": { "df": -1.4, "dv": 0 }, "handleOut": { "df": 2.1, "dv": 0 } },
+        { "frame": 10, "value": -1.6138152197942817, "interp": "bezier", "handleIn": { "df": -2.1, "dv": 0 }, "handleOut": { "df": 6, "dv": 0 } }
+      ],
+      "ry": [
+        { "frame": 0, "value": 0.0230437941628321, "interp": "bezier", "handleIn": { "df": -6, "dv": 0 }, "handleOut": { "df": 1.4, "dv": 0 } },
+        { "frame": 4, "value": 0.0230437941628321, "interp": "bezier", "handleIn": { "df": -1.4, "dv": 0 }, "handleOut": { "df": 2.1, "dv": 0 } },
+        { "frame": 10, "value": 0.0230437941628321, "interp": "bezier", "handleIn": { "df": -2.1, "dv": 0 }, "handleOut": { "df": 6, "dv": 0 } }
+      ],
+      "rz": [
+        { "frame": 0, "value": -0.0031231026334137893, "interp": "bezier", "handleIn": { "df": -6, "dv": 0 }, "handleOut": { "df": 1.4, "dv": 0 } },
+        { "frame": 4, "value": -0.0031231026334137893, "interp": "bezier", "handleIn": { "df": -1.4, "dv": 0 }, "handleOut": { "df": 2.1, "dv": 0 } },
+        { "frame": 10, "value": -0.0031231026334137893, "interp": "bezier", "handleIn": { "df": -2.1, "dv": 0 }, "handleOut": { "df": 6, "dv": 0 } }
+      ]
+    },
+    "handR": {
+      "px": [
+        { "frame": 0, "value": -0.5944080931718283, "interp": "bezier", "handleIn": { "df": -6, "dv": 0 }, "handleOut": { "df": 1.4, "dv": 0 } },
+        { "frame": 4, "value": -0.66, "interp": "bezier", "handleIn": { "df": -1.4, "dv": 0 }, "handleOut": { "df": 2.1, "dv": 0 } },
+        { "frame": 10, "value": -0.14, "interp": "bezier", "handleIn": { "df": -2.1, "dv": 0 }, "handleOut": { "df": 6, "dv": 0 } }
+      ],
+      "py": [
+        { "frame": 0, "value": 0.9059453378503477, "interp": "bezier", "handleIn": { "df": -6, "dv": 0 }, "handleOut": { "df": 1.4, "dv": 0 } },
+        { "frame": 4, "value": 1.34, "interp": "bezier", "handleIn": { "df": -1.4, "dv": 0 }, "handleOut": { "df": 2.1, "dv": 0 } },
+        { "frame": 10, "value": 0.78, "interp": "bezier", "handleIn": { "df": -2.1, "dv": 0 }, "handleOut": { "df": 6, "dv": 0 } }
+      ],
+      "pz": [
+        { "frame": 0, "value": 0.28175253719778065, "interp": "bezier", "handleIn": { "df": -6, "dv": 0 }, "handleOut": { "df": 1.4, "dv": 0 } },
+        { "frame": 4, "value": 0.08, "interp": "bezier", "handleIn": { "df": -1.4, "dv": 0 }, "handleOut": { "df": 2.1, "dv": 0 } },
+        { "frame": 10, "value": 0.54, "interp": "bezier", "handleIn": { "df": -2.1, "dv": 0 }, "handleOut": { "df": 6, "dv": 0 } }
+      ],
+      "rx": [
+        { "frame": 0, "value": -1.7361054913780185, "interp": "bezier", "handleIn": { "df": -6, "dv": 0 }, "handleOut": { "df": 1.4, "dv": 0 } },
+        { "frame": 4, "value": -1.05, "interp": "bezier", "handleIn": { "df": -1.4, "dv": 0 }, "handleOut": { "df": 2.1, "dv": 0 } },
+        { "frame": 10, "value": -0.82, "interp": "bezier", "handleIn": { "df": -2.1, "dv": 0 }, "handleOut": { "df": 6, "dv": 0 } }
+      ],
+      "ry": [
+        { "frame": 0, "value": 0.7862223933114533, "interp": "bezier", "handleIn": { "df": -6, "dv": 0 }, "handleOut": { "df": 1.4, "dv": 0 } },
+        { "frame": 4, "value": 0.52, "interp": "bezier", "handleIn": { "df": -1.4, "dv": 0 }, "handleOut": { "df": 2.1, "dv": 0 } },
+        { "frame": 10, "value": 0.35, "interp": "bezier", "handleIn": { "df": -2.1, "dv": 0 }, "handleOut": { "df": 6, "dv": 0 } }
+      ],
+      "rz": [
+        { "frame": 0, "value": -0.5077339280225737, "interp": "bezier", "handleIn": { "df": -6, "dv": 0 }, "handleOut": { "df": 1.4, "dv": 0 } },
+        { "frame": 4, "value": -0.95, "interp": "bezier", "handleIn": { "df": -1.4, "dv": 0 }, "handleOut": { "df": 2.1, "dv": 0 } },
+        { "frame": 10, "value": -0.35, "interp": "bezier", "handleIn": { "df": -2.1, "dv": 0 }, "handleOut": { "df": 6, "dv": 0 } }
+      ]
+    },
+    "poleKneeL": {
+      "px": [
+        { "frame": 0, "value": 0.12335234418226083, "interp": "bezier", "handleIn": { "df": -6, "dv": 0 }, "handleOut": { "df": 1.4, "dv": 0 } },
+        { "frame": 4, "value": 0.12335234418226083, "interp": "bezier", "handleIn": { "df": -1.4, "dv": 0 }, "handleOut": { "df": 2.1, "dv": 0 } },
+        { "frame": 10, "value": 0.12335234418226083, "interp": "bezier", "handleIn": { "df": -2.1, "dv": 0 }, "handleOut": { "df": 6, "dv": 0 } }
+      ],
+      "py": [
+        { "frame": 0, "value": 0.47467963379778705, "interp": "bezier", "handleIn": { "df": -6, "dv": 0 }, "handleOut": { "df": 1.4, "dv": 0 } },
+        { "frame": 4, "value": 0.47467963379778705, "interp": "bezier", "handleIn": { "df": -1.4, "dv": 0 }, "handleOut": { "df": 2.1, "dv": 0 } },
+        { "frame": 10, "value": 0.47467963379778705, "interp": "bezier", "handleIn": { "df": -2.1, "dv": 0 }, "handleOut": { "df": 6, "dv": 0 } }
+      ],
+      "pz": [
+        { "frame": 0, "value": 0.5153387288405912, "interp": "bezier", "handleIn": { "df": -6, "dv": 0 }, "handleOut": { "df": 1.4, "dv": 0 } },
+        { "frame": 4, "value": 0.5153387288405912, "interp": "bezier", "handleIn": { "df": -1.4, "dv": 0 }, "handleOut": { "df": 2.1, "dv": 0 } },
+        { "frame": 10, "value": 0.5153387288405912, "interp": "bezier", "handleIn": { "df": -2.1, "dv": 0 }, "handleOut": { "df": 6, "dv": 0 } }
+      ],
+      "rx": [
+        { "frame": 0, "value": 0, "interp": "bezier", "handleIn": { "df": -6, "dv": 0 }, "handleOut": { "df": 1.4, "dv": 0 } },
+        { "frame": 4, "value": 0, "interp": "bezier", "handleIn": { "df": -1.4, "dv": 0 }, "handleOut": { "df": 2.1, "dv": 0 } },
+        { "frame": 10, "value": 0, "interp": "bezier", "handleIn": { "df": -2.1, "dv": 0 }, "handleOut": { "df": 6, "dv": 0 } }
+      ],
+      "ry": [
+        { "frame": 0, "value": 0, "interp": "bezier", "handleIn": { "df": -6, "dv": 0 }, "handleOut": { "df": 1.4, "dv": 0 } },
+        { "frame": 4, "value": 0, "interp": "bezier", "handleIn": { "df": -1.4, "dv": 0 }, "handleOut": { "df": 2.1, "dv": 0 } },
+        { "frame": 10, "value": 0, "interp": "bezier", "handleIn": { "df": -2.1, "dv": 0 }, "handleOut": { "df": 6, "dv": 0 } }
+      ],
+      "rz": [
+        { "frame": 0, "value": 0, "interp": "bezier", "handleIn": { "df": -6, "dv": 0 }, "handleOut": { "df": 1.4, "dv": 0 } },
+        { "frame": 4, "value": 0, "interp": "bezier", "handleIn": { "df": -1.4, "dv": 0 }, "handleOut": { "df": 2.1, "dv": 0 } },
+        { "frame": 10, "value": 0, "interp": "bezier", "handleIn": { "df": -2.1, "dv": 0 }, "handleOut": { "df": 6, "dv": 0 } }
+      ]
+    },
+    "poleKneeR": {
+      "px": [
+        { "frame": 0, "value": -0.9012177808236982, "interp": "bezier", "handleIn": { "df": -6, "dv": 0 }, "handleOut": { "df": 1.4, "dv": 0 } },
+        { "frame": 4, "value": -0.9012177808236982, "interp": "bezier", "handleIn": { "df": -1.4, "dv": 0 }, "handleOut": { "df": 2.1, "dv": 0 } },
+        { "frame": 10, "value": -0.9012177808236982, "interp": "bezier", "handleIn": { "df": -2.1, "dv": 0 }, "handleOut": { "df": 6, "dv": 0 } }
+      ],
+      "py": [
+        { "frame": 0, "value": 0.6147201615713678, "interp": "bezier", "handleIn": { "df": -6, "dv": 0 }, "handleOut": { "df": 1.4, "dv": 0 } },
+        { "frame": 4, "value": 0.6147201615713678, "interp": "bezier", "handleIn": { "df": -1.4, "dv": 0 }, "handleOut": { "df": 2.1, "dv": 0 } },
+        { "frame": 10, "value": 0.6147201615713678, "interp": "bezier", "handleIn": { "df": -2.1, "dv": 0 }, "handleOut": { "df": 6, "dv": 0 } }
+      ],
+      "pz": [
+        { "frame": 0, "value": 0.09146085216717026, "interp": "bezier", "handleIn": { "df": -6, "dv": 0 }, "handleOut": { "df": 1.4, "dv": 0 } },
+        { "frame": 4, "value": 0.09146085216717026, "interp": "bezier", "handleIn": { "df": -1.4, "dv": 0 }, "handleOut": { "df": 2.1, "dv": 0 } },
+        { "frame": 10, "value": 0.09146085216717026, "interp": "bezier", "handleIn": { "df": -2.1, "dv": 0 }, "handleOut": { "df": 6, "dv": 0 } }
+      ],
+      "rx": [
+        { "frame": 0, "value": 0, "interp": "bezier", "handleIn": { "df": -6, "dv": 0 }, "handleOut": { "df": 1.4, "dv": 0 } },
+        { "frame": 4, "value": 0, "interp": "bezier", "handleIn": { "df": -1.4, "dv": 0 }, "handleOut": { "df": 2.1, "dv": 0 } },
+        { "frame": 10, "value": 0, "interp": "bezier", "handleIn": { "df": -2.1, "dv": 0 }, "handleOut": { "df": 6, "dv": 0 } }
+      ],
+      "ry": [
+        { "frame": 0, "value": 0, "interp": "bezier", "handleIn": { "df": -6, "dv": 0 }, "handleOut": { "df": 1.4, "dv": 0 } },
+        { "frame": 4, "value": 0, "interp": "bezier", "handleIn": { "df": -1.4, "dv": 0 }, "handleOut": { "df": 2.1, "dv": 0 } },
+        { "frame": 10, "value": 0, "interp": "bezier", "handleIn": { "df": -2.1, "dv": 0 }, "handleOut": { "df": 6, "dv": 0 } }
+      ],
+      "rz": [
+        { "frame": 0, "value": 0, "interp": "bezier", "handleIn": { "df": -6, "dv": 0 }, "handleOut": { "df": 1.4, "dv": 0 } },
+        { "frame": 4, "value": 0, "interp": "bezier", "handleIn": { "df": -1.4, "dv": 0 }, "handleOut": { "df": 2.1, "dv": 0 } },
+        { "frame": 10, "value": 0, "interp": "bezier", "handleIn": { "df": -2.1, "dv": 0 }, "handleOut": { "df": 6, "dv": 0 } }
+      ]
+    }
+  }
+}
