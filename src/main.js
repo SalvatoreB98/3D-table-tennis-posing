@@ -9,6 +9,7 @@ import { Timeline } from './animation/Timeline.js';
 import { getTableTennisPresetAnimation } from './animation/TableTennisPresets.js';
 import { TimelineUI } from './ui/TimelineUI.js';
 import { GraphEditor } from './ui/GraphEditor.js';
+import { MiniGame } from './game/MiniGame.js';
 
 // --- Scene & Renderer Setup ---
 const canvas = document.getElementById('three-canvas');
@@ -671,8 +672,31 @@ function wireUI() {
   document.getElementById('btn-zen-mode').addEventListener('click', toggleZenMode);
   document.getElementById('btn-exit-zen').addEventListener('click', toggleZenMode);
 
+  // Minigame Mode
+  const miniGame = new MiniGame(scene, camera, orbit, ik, timeline, {
+    onExit: () => {
+      document.body.classList.remove('minigame-mode');
+      gizmos.group.visible = !zenMode;
+      tcHelper.visible = !zenMode;
+      if (!zenMode) updateMotionPath();
+      handleResize();
+    },
+  });
+  window.__miniGame = miniGame;
+
+  document.getElementById('btn-minigame').addEventListener('click', () => {
+    if (timeline.isPlaying) togglePlay();
+    document.body.classList.add('minigame-mode');
+    gizmos.group.visible = false;
+    tcHelper.visible = false;
+    gizmos.motionPathLine.visible = false;
+    miniGame.start();
+    handleResize();
+  });
+
   // Keyboard shortcuts
   window.addEventListener('keydown', (e) => {
+    if (window.__miniGame?.active) return;
     if (e.target.tagName === 'INPUT' || e.target.tagName === 'SELECT') return;
     if (e.code === 'Space') {
       e.preventDefault();
@@ -755,7 +779,9 @@ function animate(now) {
   const dt = Math.min((now - lastTime) / 1000, 0.1);
   lastTime = now;
 
-  if (timeline.isPlaying) {
+  if (window.__miniGame?.active) {
+    window.__miniGame.update(dt);
+  } else if (timeline.isPlaying) {
     let nextFrame = timeline.currentFrame + dt * timeline.fps;
     if (nextFrame > timeline.totalFrames) {
       if (timeline.loop) {

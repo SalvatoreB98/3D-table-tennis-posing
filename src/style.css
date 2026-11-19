@@ -767,7 +767,112 @@ kbd {
 body.zen-mode #topbar,
 body.zen-mode #inspector,
 body.zen-mode #viewport-hud,
-body.zen-mode #bottom-dock {
+body.zen-mode #bottom-dock,
+body.minigame-mode #topbar,
+body.minigame-mode #inspector,
+body.minigame-mode #viewport-hud,
+body.minigame-mode #bottom-dock {
   display: none;
 }
+
+/* Minigame HUD */
+#minigame-hud {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 14px;
+  z-index: 40;
+}
+
+#minigame-hud.hidden {
+  display: none;
+}
+
+.mg-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  pointer-events: auto;
+}
+
+.mg-stats {
+  display: flex;
+  gap: 14px;
+  background: rgba(20, 22, 26, 0.82);
+  border: 1px solid var(--border);
+  padding: 7px 14px;
+  border-radius: 10px;
+  font-size: 13px;
+  backdrop-filter: blur(8px);
+}
+
+.mg-pill {
+  background: rgba(20, 22, 26, 0.85);
+  border: 1px solid var(--border);
+  padding: 7px 16px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  backdrop-filter: blur(8px);
+}
+
+.mg-feedback {
+  align-self: center;
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-shadow: 0 4px 18px rgba(0, 0, 0, 0.8);
+  opacity: 0;
+}
+
+.mg-feedback.pop {
+  animation: mgPop 0.9s ease-out forwards;
+}
+
+@keyframes mgPop {
+  0% { opacity: 0; transform: translateY(10px) scale(0.8); }
+  20% { opacity: 1; transform: translateY(0) scale(1.08); }
+  100% { opacity: 0; transform: translateY(-22px) scale(1); }
+}
+
+.mg-controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  pointer-events: auto;
+}
+
+.mg-stroke-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 13px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: rgba(29, 32, 38, 0.88);
+  color: var(--text-main);
+  cursor: pointer;
+  font-size: 12.5px;
+  font-weight: 500;
+  backdrop-filter: blur(8px);
+  transition: transform 0.1s, border-color 0.15s, background 0.15s;
+}
+
+.mg-stroke-btn:hover {
+  background: var(--bg-hover);
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.mg-stroke-btn.active {
+  background: var(--accent);
+  border-color: #93c5fd;
+  color: #fff;
+}
+
 
